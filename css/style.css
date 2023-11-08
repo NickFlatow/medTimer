@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#inputTime, #start {
+    margin: 10px 0;
+}
+
+.timer-style {
+    color: red; /* Change the text color */
+    font-size: 2em; /* Change the font size */
+    font-weight: bold; /* Make the text bold */
+}
+
+#inputTime {
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
